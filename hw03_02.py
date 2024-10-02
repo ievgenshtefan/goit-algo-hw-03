@@ -7,7 +7,8 @@ def get_numbers_ticket(min, max, quantity):
             random_numbers.add(random.randint(min, max))
         random_numbers = list(random_numbers)
         random_numbers.sort()
-        return random_numbers
+        if len(random_numbers) == quantity:
+            return random_numbers
     else:
         random_numbers = list(random_numbers)
         return random_numbers
