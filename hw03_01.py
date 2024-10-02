@@ -10,7 +10,8 @@ def get_days_from_today(date):
     else:
         today_day = datetime.today().date()
         diff_day = abs(today_day - user_date)
-    return diff_day.days
+        return diff_day.days
 
 request = get_days_from_today(test_day)
-print(request)
+if request != None:
+    print(request)
