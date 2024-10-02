@@ -1,6 +1,6 @@
 from datetime import datetime
 
-test_day = '2024-12-31'
+test_day = '2025-12-31'
 
 def get_days_from_today(date):
     try:
